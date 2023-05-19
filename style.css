@@ -1,0 +1,601 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.resume {
+  display: grid;
+  background-color: #f5f5f5;
+  font-family: sans-serif;
+}
+
+/* SMARTPHONES RATIO */
+@media only screen and (max-width: 425px) {
+  .resume {
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 100%;
+  }
+}
+
+/* SMARTPHONES RATIO */
+@media only screen and (max-width: 320px) {
+  .resume {
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 100%;
+  }
+}
+
+/* SMARTPHONES RATIO */
+@media only screen and (max-width: 500px) and (min-width: 321px) {
+  .educ {
+    background-image: url("./assets/images/aup_logo.png");
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position-x: 0px;
+    background-position-y: 160px;
+    padding-bottom: 200px;
+  }
+
+  .logoLists {
+    box-sizing: border-box;
+    flex: 1;
+    width: 12%;
+    padding: 0 10px;
+    text-align: center;
+  }
+}
+
+/* SMARTPHONES RATIO */
+@media only screen and (max-width: 320px) {
+  .educ {
+    background-image: url("./assets/images/aup_logo.png");
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position-x: 0px;
+    background-position-y: 180px;
+    padding-bottom: 200px;
+  }
+
+  .logoLists {
+    box-sizing: border-box;
+    flex: 1;
+    width: 12%;
+    padding: 0 1px;
+    text-align: center;
+  }
+}
+
+/* TABLET RATIO */
+@media only screen and (max-width: 700px) and (min-width: 426px) {
+  .resume {
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 100%;
+  }
+}
+
+/* TABLET RATIO */
+@media only screen and (max-width: 769px) and (min-width: 501px) {
+  .educ {
+    background-image: url("./assets/images/aup_logo.png");
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position-x: 350px;
+    background-position-y: 60px;
+  }
+
+  .logoLists {
+    box-sizing: border-box;
+    flex: 1;
+    width: 12%;
+    padding: 0 10px;
+    text-align: center;
+  }
+}
+
+/* COMPUTER RATIO */
+@media only screen and (min-width: 701px) {
+  .resume {
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+  }
+  
+}
+
+/* COMPUTER RATIO */
+@media only screen and (min-width: 770px) {
+  .educ {
+    background-image: url("./assets/images/aup_logo.png");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-x: center;
+    background-position-y: 150px;
+    padding-bottom: 400px;
+  }
+
+  .logoLists {
+    box-sizing: border-box;
+    flex: 1;
+    width: 12%;
+    padding: 0 10px;
+    text-align: center;
+  }
+}
+
+
+.fa-solid:hover {text-shadow: 3px 3px 10px black}
+.fa-brands:hover {text-shadow: 3px 3px 10px black}
+
+@media only screen and (max-width: 320px) {
+
+  .sectionTitle {
+    padding-left: 10px;
+  }
+
+  .dp {
+    margin: 10px 0px 5px 10px;
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 40px;
+    box-shadow: 3px 3px 10px black;
+  }
+  hr {display: none;}
+  .name {display: none;}
+  .contactTxt {display: none;}
+  .infoDetailsChild {display: none;}
+  .aboutInfo {display: none;}
+  .aboutContent {display: none;}
+  .profileTxt {display: none;}
+  .socLogo {padding-top: 10px;}
+  
+  .infoDetails {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: -10px;
+    border-left: 3px solid white;
+  }
+  
+  .fa-brands {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    border-left: 3px solid white;
+  }
+  .jobPosition {display: none;}
+  .sideProfile {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 65px;
+    height: 100%;
+    background-color: #3C4C3C;
+    color: white;
+    display: block;
+  }
+
+  .tabs .content section h2,
+  .tabs ul li label {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px; /* ===LOGO FONT=== */
+    color: #3C4C3C;
+  }
+}
+
+@media only screen and (max-width: 748px) {
+
+  .dp {
+    margin: 10px 0px 5px 10px;
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 40px;
+    box-shadow: 3px 3px 10px black;
+  }
+  hr {display: none;}
+  .name {display: none;}
+  .contactTxt {display: none;}
+  .infoDetailsChild {display: none;}
+  .aboutInfo {display: none;}
+  .aboutContent {display: none;}
+  .profileTxt {display: none;}
+  .socLogo {padding-top: 10px;}
+  
+  .infoDetails {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: -10px;
+    border-left: 3px solid white;
+  }
+  
+  .fa-brands {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    border-left: 3px solid white;
+  }
+  .jobPosition {display: none;}
+  .sideProfile {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 65px;
+    height: 100%;
+    background-color: #3C4C3C;
+    color: white;
+    display: block;
+  }
+
+  .tabs .content section h2,
+  .tabs ul li label {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px; /* ===LOGO FONT=== */
+    color: #3C4C3C;
+  }
+}
+
+@media only screen and (min-width: 749px) {
+
+  .dp {
+    margin: 20px 0px 5px 48px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 150px;
+    box-shadow: 3px 3px 10px black;
+  }
+  hr {
+    width: 85%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 7px;
+  }
+  
+  .name {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.8;
+    letter-spacing: 1px;
+  }
+  
+  .contactInfo {
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.3;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .aboutInfo {
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.3;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .aboutContent {
+    text-align: justify;
+  }
+  
+  .socialMedialinks {
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.3;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .fa-brands {
+    font-size: 25px;
+    padding-left: 35px;
+    line-height: 1.3;
+  }
+
+  .sideProfile {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 250px;
+    height: 100%;
+    background-color: #3C4C3C;
+    color: white;
+    display: block;
+  }
+
+  .tabs .content section h2,
+  .tabs ul li label {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px; /* ===LOGO FONT=== */
+    color: #3C4C3C;
+  }
+}
+
+
+
+.info {
+    padding-left: 20px;
+}
+
+.tabs {
+  display: block;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-left: 20px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 100%;
+}
+.tabs input[name=tab-control] {
+  display: none;
+}
+
+.tabs ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* text-transform: uppercase; */
+  flex-wrap: wrap;
+}
+
+.tabs ul li label {
+  transition: all 0.3s ease-in-out;
+  color: #929daf;
+  padding: 5px auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.tabs ul li label br {
+  display: none;
+}
+.tabs ul li label {
+  fill: #929daf;
+  height: 1.2em;
+  vertical-align: bottom;
+  margin-right: 0.2em;
+  transition: all 0.2s ease-in-out;
+}
+.tabs ul li label:hover, .tabs ul li label:focus, .tabs ul li label:active {
+  outline: 0;
+  color: #bec5cf;
+}
+.tabs ul li label:hover, .tabs ul li label:focus, .tabs ul li label:active {
+  fill: #bec5cf;
+}
+.tabs .slider {
+  position: relative;
+  width: 14.28%;
+  transition: all 0.33s cubic-bezier(0.38, 0.8, 0.32, 1.07);
+}
+.tabs .slider .indicator {
+  position: relative;
+  width: 80px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 4px;
+  background: #3C4C3C;
+  border-radius: 1px;
+}
+.tabs .content {
+  margin-top: 30px;
+}
+.tabs .content section {
+  display: none;
+  -webkit-animation-name: content;
+          animation-name: content;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  line-height: 1.4;
+}
+.tabs .content section {
+  color: #3C4C3C;
+  display: none;
+}
+.tabs .content section::after h2 {
+  content: "";
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #3C4C3C;
+  margin-top: 5px;
+  left: 1px;
+}
+
+  .tabs input[name=tab-control]:nth-of-type(1):checked ~ ul > li:nth-child(1) > label {
+    cursor: default;
+    color: #3C4C3C;
+  }
+  .tabs input[name=tab-control]:nth-of-type(1):checked ~ ul > li:nth-child(1) > label {
+    fill: #3C4C3C;
+  }
+  
+  .tabs input[name=tab-control]:nth-of-type(1):checked ~ .slider {
+    transform: translateX(0%);
+  }
+  .tabs input[name=tab-control]:nth-of-type(1):checked ~ .content > section:nth-child(1) {
+    display: block;
+  }
+  .tabs input[name=tab-control]:nth-of-type(2):checked ~ ul > li:nth-child(2) > label {
+    cursor: default;
+    color: #3C4C3C;
+  }
+  .tabs input[name=tab-control]:nth-of-type(2):checked ~ ul > li:nth-child(2) > label {
+    fill: #3C4C3C;
+  }
+ 
+  .tabs input[name=tab-control]:nth-of-type(2):checked ~ .slider {
+    transform: translateX(100%);
+  }
+  .tabs input[name=tab-control]:nth-of-type(2):checked ~ .content > section:nth-child(2) {
+    display: block;
+  }
+  .tabs input[name=tab-control]:nth-of-type(3):checked ~ ul > li:nth-child(3) > label {
+    cursor: default;
+    color: #3C4C3C;
+  }
+  .tabs input[name=tab-control]:nth-of-type(3):checked ~ ul > li:nth-child(3) > label {
+    fill: #3C4C3C;
+  }
+
+  .tabs input[name=tab-control]:nth-of-type(3):checked ~ .slider {
+    transform: translateX(200%);
+  }
+  .tabs input[name=tab-control]:nth-of-type(3):checked ~ .content > section:nth-child(3) {
+    display: block;
+  }
+  .tabs input[name=tab-control]:nth-of-type(4):checked ~ ul > li:nth-child(4) > label {
+    cursor: default;
+    color: #3C4C3C;
+  }
+  .tabs input[name=tab-control]:nth-of-type(4):checked ~ ul > li:nth-child(4) > label {
+    fill: #3C4C3C;
+  }
+  
+  .tabs input[name=tab-control]:nth-of-type(4):checked ~ .slider {
+    transform: translateX(300%);
+  }
+  .tabs input[name=tab-control]:nth-of-type(4):checked ~ .content > section:nth-child(4) {
+    display: block;
+  }
+  .tabs input[name=tab-control]:nth-of-type(5):checked ~ ul > li:nth-child(5) > label {
+    cursor: default;
+    color: #3C4C3C;
+  }
+  .tabs input[name=tab-control]:nth-of-type(5):checked ~ ul > li:nth-child(5) > label {
+    fill: #3C4C3C;
+  }
+  
+  .tabs input[name=tab-control]:nth-of-type(5):checked ~ .slider {
+    transform: translateX(400%);
+  }
+  .tabs input[name=tab-control]:nth-of-type(5):checked ~ .content > section:nth-child(5) {
+    display: block;
+  }
+
+  .tabs input[name=tab-control]:nth-of-type(6):checked ~ ul > li:nth-child(6) > label {
+    cursor: default;
+    color: #3C4C3C;
+  }
+  .tabs input[name=tab-control]:nth-of-type(6):checked ~ ul > li:nth-child(6) > label {
+    fill: #3C4C3C;
+  }
+  
+  .tabs input[name=tab-control]:nth-of-type(6):checked ~ .slider {
+    transform: translateX(500%);
+  }
+  .tabs input[name=tab-control]:nth-of-type(6):checked ~ .content > section:nth-child(6) {
+    display: block;
+  }
+
+  .tabs input[name=tab-control]:nth-of-type(7):checked ~ ul > li:nth-child(7) > label {
+    cursor: default;
+    color: #3C4C3C;
+  }
+  .tabs input[name=tab-control]:nth-of-type(7):checked ~ ul > li:nth-child(7) > label {
+    fill: #3C4C3C;
+  }
+  
+  .tabs input[name=tab-control]:nth-of-type(7):checked ~ .slider {
+    transform: translateX(600%);
+  }
+  .tabs input[name=tab-control]:nth-of-type(7):checked ~ .content > section:nth-child(7) {
+    display: block;
+  }
+
+  
+@-webkit-keyframes content {
+    from {
+      opacity: 0;
+      transform: translateY(5%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @keyframes content {
+    from {
+      opacity: 0;
+      transform: translateY(5%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  
+  .company {
+    font-size: 13px;
+    font-weight: 800;
+  }
+
+  .position {
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .duration {
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .role {
+    text-align: center;
+  }
+
+  .role, .roleList {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .educDetails {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .skillset {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .skillLists {padding-left: 30px;}
+  .langList {padding-left: 30px;}
+  .hobList {padding-left: 30px;}
+  .refList {padding-left: 30px;}
+  .certList {padding-left: 30px;}
+
+  
